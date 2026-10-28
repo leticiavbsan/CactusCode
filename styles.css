@@ -1,0 +1,154 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 0 20px;
+  }
+  
+  header {
+    background: #3e7749;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative; 
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+
+  header a{
+    text-decoration: none;
+    color:#13f413;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .ciclo p{
+    color:black;
+  }
+
+  .ciclo h2{
+    font-size: 1.8rem;
+    color: #043b24;
+    margin-bottom: 10px;
+  }
+
+
+  .etapa img {
+    width: 100%;
+    height: 5%;
+    margin: 10px 0;
+  }
+
+  .etapa {
+    margin-bottom: 20px;
+  }
+  
+  .etapa h2 {
+    font-size: 1.8rem;
+    color: #043b24;
+    margin-bottom: 10px;
+  }
+  
+  .etapa p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    color: black;
+    padding: 0 4%;
+    text-align: justify;
+  }
+
+  .etapa h3{
+    color: #3d923d;
+  }
+
+  .etapa ul {
+    padding: 0 4%;
+    margin-left: 20px;
+}
+
+.etapa ul li {
+    font-size: 1em;
+    margin-bottom: 5px;
+    color: black;
+}
+
+
+.equipe {
+    margin-bottom: 20px;
+  }
+  
+  .equipe h2 {
+    font-size: 1.8rem;
+    color: #043b24;
+    margin-bottom: 10px;
+  }
+  
+  .equipe p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    color: black;
+    padding: 0 4%;
+    text-align: justify;
+  }
+
+  .equipe h3{
+    color: #3d923d;
+  }
+
+  .equipe ul {
+    padding: 0 4%;
+    margin-left: 20px;
+}
+
+.equipe ul li {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: black;
+    list-style-type: none;
+}
+
+.equipe span{
+    color: #043b24;
+    font-weight: bold;
+}
+
+
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #3e7749;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  

@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+h2.titulo{
+    font-size: 38px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #043b24;
+}
+
+.logo img{
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:  white;
+    z-index: 1000;
+    padding: 10px 4%;
+    box-shadow: 0px 4px 8px rgba(211, 211, 211, 0.511);
+}
+
+main{
+    margin-top: 70px;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #43897d;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #38CB82;
+    transform: scale(1.15);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.menu button{
+    padding: 10px 30px;
+    font-weight: 600;
+    background-color: white;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #061f23;
+    font-size: 15px;
+}
+
+.menu .botao{
+    background-color: #a3d6a5;
+}
+
+
+
+/* MINHA PRIMEIRA SEÇÃO */
+
+.inicio{
+    background-image: url("fundo\ \(9\).png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inicio h1{
+    font-size: 40px;
+    margin-top: 10%;
+    color:#043b24;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.inicio h1 span{
+    color: #043b24;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+ /* MINHA SEGUNDA SEÇÃO */
+
+
+section.topo{
+    padding: 0px 4%;   
+    margin-top: 0;
+    height: 55vh; 
+}
+
+section .topo .imgtopo, 
+section .topo h1{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo h1{
+    color: #073a21;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 20%;
+}
+
+section .topo .imgtopo{
+    padding: 50px 60px;
+    font-weight: 700;
+}
+
+.topo h1 span{
+    color: #38963a;
+}
+
+.topo p{
+    margin-top: 2%;
+    line-height: 1.6;
+}
+
+
+/* MINHA TERCEIRA TELA */
+
+
+section.metodologia{
+    padding: 40px 4%;
+    background-color:#3e7749;
+    height: 70vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+
+section.metodologia .flex{
+    gap: 60px;
+    align-items: center;
+    position: center;
+    display: flex;
+    justify-content: center; 
+}
+
+.metodologia .metodo{
+    background-color: white;
+    padding: 25px;
+    margin-top: 70px;
+    box-shadow: 0 0 10px rgba(6, 6, 6, 0.444);
+    transition: .5s;
+    width: 230px;
+    border-radius: 10px;
+}
+
+.metodologia .metodo:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #043b24;
+}
+
+.metodologia .metodo h3{
+    font-size: 20px;
+    text-align: center;
+}
+
+.metodologia .metodo h3 a{
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+}
+
+.metodologia .interface h4 a:hover{
+    text-decoration: underline;
+}
+
+.metodologia h2{
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+/* MINHA TERCEIRA TELA */
+
+
+section.ferramenta{
+    padding: 40px 4%;
+    height: 100vh;
+    background-color: #dfded7;
+    height: 80vh;
+}
+
+section.ferramenta .flex{
+    gap: 100px;
+}
+
+.ferramenta .ferra{
+    color: black;
+    line-height: 1.6;
+    box-shadow: 0 4px 10px rgba(6, 6, 6, 0.444);
+    background-color: #f0f0f0;
+    margin-top: 50px; 
+    padding: 15px;
+    border-left: 5px solid #043b24; 
+    color: #043b24; 
+    font-style: italic; 
+    border-left: 5px solid #043b24; 
+    font-size: 18px;
+    border-radius: 10px; 
+}
+
+.ferramenta .ferra img{
+    width: 65px;
+}
+
+.ferramenta .ferra h3{
+    font-size: 25px;
+    margin: 20px 0;
+    color: #22554d;
+}
+
+.ferramenta h2{
+    color: #043b24;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ferramenta .ferra p{
+    margin-bottom: 20px;
+}
+
+
+
+/* MINHA QUARTA TELA */ 
+
+
+
+
+section.equipe { 
+    padding: 40px 4%; 
+    background-color: #f4f4f4; 
+    text-align: center; 
+} 
+
+.equipe .interface { 
+    max-width: 1500px; 
+    margin: 0 auto; 
+} 
+
+.equipe .titulo { 
+    color: #043b24; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-bottom: 40px; 
+} 
+
+.equipe .flex { 
+    display: flex; 
+    gap: 50px; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+} 
+
+.equipe .membro { 
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: .3s; 
+    width: 310px; 
+    text-align: center; 
+} 
+
+.equipe .membro img { 
+    width: 100%; 
+    border-radius: 50%; 
+    margin-bottom: 15px; 
+} 
+
+.equipe .membro h3 { 
+    font-size: 20px; 
+    color: black; 
+    margin-bottom: 10px;
+} 
+
+.equipe .membro p { 
+    font-size: 16px; 
+    color: #333; 
+} 
+
+.equipe .membro:hover { 
+    transform: scale(1.05); 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+
+
+/* MINHA QUINTA TELA */
+
+
+
+section.contato{    
+    padding: 80px 4%; 
+    background-color: white; 
+    text-align: center; 
+}
+
+
+.contatocon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 140px;
+  }
+  
+  .con {
+    background-color: #a3d6a5;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px #043b24;
+    padding: 40px;
+    text-align: center;
+    width: 360px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .con:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .con h3 {
+    font-size: 1.5rem;
+    color: #006400;
+    margin-bottom: 10px;
+  }
+  
+  .contatocon p {
+    font-size: 1rem;
+    margin-top: 25px;
+  }
+
+  .contatocon .c{
+    font-weight: bold;
+    color: #043b24;
+  }
+
+
+
+
+
+  /* MEU FOOTER */
+
+
+
+footer{
+    background-color: #a3d6a5;
+    margin-top: 70px;
+    height: 90px;
+}
+
+footer p{
+    font-weight: bold;
+    color:#043b24;
+    margin-top: 35px;
+    text-align: right;
+}
+
+footer .logo{
+        width: 50px;
+        height: auto;
+        margin-top: 10px;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 75px; 
+}
